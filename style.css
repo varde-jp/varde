@@ -492,15 +492,24 @@ body {
   }
 
   .wrap #photo {
-    margin: 170px 20px 0 20px;
+    margin: 250px auto 0 auto;
     box-sizing: border-box;
-    width: 90%;
+    width: 80%;
     max-height: 270px;
+  }
+
+  .about {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .about-text {
+    height: auto;
+    padding: 0 20px 100px 20px;
   }
 
   .about p {
     margin: 0;
-    padding: 0 20px 100px 20px;
     box-sizing: border-box;
   }
 
