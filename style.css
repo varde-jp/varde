@@ -1,3 +1,12 @@
+
+
+@font-face {
+font-family: 'はれのそら明朝';
+src: url("https://github.com/varde-jp/varde/files/7879939/Harenosora.2.otf.zip");
+}
+
+
+
 body {
   margin: 0;
 }
