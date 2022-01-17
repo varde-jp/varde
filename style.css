@@ -476,7 +476,7 @@ body {
 
   .iphone-home {
     display: block;
-    padding: 25% 0;
+    padding: 15% 0;
     height: auto;
   }
 
@@ -490,6 +490,7 @@ body {
 
   #home {
     background-color: #000b00;
+    height: 100vh;
   }
 
   .nav.show {
