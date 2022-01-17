@@ -4,49 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" contetnt="札幌ネイルサロン Vardeの問い合わせ方法 メール ライン インスタグラム">
-  <title>Varde_contact</title>
+  <meta name="description" contetnt="札幌プライベートネイルサロン Vardeのフォトギャラリー">
+  <title>Varde_photogallery</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+    
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
-
-  <style type="text/css">
-    #photo {
-        text-align: left;
-        overflow: hidden;
-        position: relative;
-    }
-    
-    #photo img {
-        top: 0;
-        left: 0;
-        position: absolute;
-    }
-    </style>
-    
-    
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript">
-    $(function(){
-        var setImg = '#photo';
-        var fadeSpeed = 1600;
-        var switchDelay = 5000;
-    
-        $(setImg).children('img').css({opacity:'0'});
-        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
-    
-        setInterval(function(){
-            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
-        },switchDelay);
-    });
-    </script>
-  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 </head>
 <body>
 <div class="wrap">
-
   <header>
     <div class= header>
       <div class="header-top">
@@ -70,61 +39,20 @@
           </nav>
         </div>
       </div>
+      </div>
     </header>
 
-  <section id="contact">
-    <div class="contact-wrapper">
-      <p class="contact-p">ご質問、ご予約、お仕事依頼等お気軽にお問い合わせ下さい</p>
-  <div class="contact-contents">
-    <div class="contact-icon">
-      <div class="mail" data-aos="fade-right"
-      data-aos-offset="0"
-      data-aos-duration="1000"
-      data-aos-easing="ease-out"
-      data-aos-delay="500"
-      data-aos-once="false"
-      data-aos-anchorPlacement="top-center">
-        <a href="mailto:varde.store@gmail.com" class="icon"><i class="far fa-envelope"></i></a>
-        <p>/ e-mail</p>
-      </div>
-      <div class="line" data-aos="fade-right"
-      data-aos-offset="0"
-      data-aos-duration="1500"
-      data-aos-easing="ease-out"
-      data-aos-delay="500"
-      data-aos-once="false"
-      data-aos-anchorPlacement="top-center">
-        <a href="https://lin.ee/xfL4HvH" class="icon"><i class="fab fa-line"></i></a>
-        <p>/ official-line</p>
-      </div>
-      
-      <div class="insta" data-aos="fade-right"
-      data-aos-offset="0"
-      data-aos-duration="2000"
-      data-aos-easing="ease-out"
-      data-aos-delay="500"
-      data-aos-once="false"
-      data-aos-anchorPlacement="top-center">
-        <a href="https://www.instagram.com/varde_nail" class="icon"><i class="fab fa-instagram"></i></a>
-        <p>/ nail-salon</p>
-      </div>
-    </div>
-
-      <div id="photo">
-        <img src="img/IMG_1097.JPG"  alt="">
-        <img src="img/IMG_8176.JPG"  alt="">
-        <img src="img/IMG_8181.JPG"  alt="">
-      </div>
-    </div>
-  </div>
-
-  </section>
+      <section id="photogallery">
+        <center>
+          <a data-pin-do="embedBoard" 
+          data-pin-scale-height="430"  href="https://www.pinterest.jp/varde2018/varde_photogallery/"></a>
+        </center>
+      </section>
 
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 <script>
   $(function() {
@@ -141,17 +69,8 @@ $(".nav-menu-li a").on("click", function() {
 
 
 });
-
-AOS.init({
-      offset: 0,
-      duration: 1500,
-      easing: 'ease-out',
-      delay: 30,
-      once: false,
-      anchorPlacement: 'top-center',
-    });
-
 </script>
+<script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
 
 </body>
 </html>
