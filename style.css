@@ -1,8 +1,10 @@
 
 
-@font-face {
-font-family: "はれのそら明朝";
-src: url("https://github.com/varde-jp/varde/blob/main/Harenosora.otf?raw=true");
+@font-face
+{
+font-family: はれのそら明朝;
+src: url('https://cdn.leafscape.be/Harenosora/harenosora_web.woff2')
+     format("woff2");
 }
 
 
